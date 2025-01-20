@@ -17,7 +17,7 @@ Em termos simples, a mágica acontece assim:
 
 ## Como Rodar o Projeto
 
-1. **Clone o repositório:** `git clone https://github.com/Heber-Stavrakas-Gaipo/object_detection_with_MobileNetSSD.git
+1. **Clone o repositório:** `git clone https://github.com/Heber-Stavrakas-Gaipo/object_detection_with_MobileNetSSD.git`
 2. **Instale as dependências:** `pip install -r requirements.txt`
 3. **Execute o script:** `python main.py -i <caminho_para_imagem>` (substitua `<caminho_para_imagem>` pelo caminho da imagem que você quer analisar)
 
