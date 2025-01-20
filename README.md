@@ -17,7 +17,7 @@ Em termos simples, a mágica acontece assim:
 
 ## Como Rodar o Projeto
 
-1. **Clone o repositório:** `git clone https://github.com/seu-usuario/seu-repositorio.git` (substitua pelo link do seu repositório)
+1. **Clone o repositório:** `git clone https://github.com/Heber-Stavrakas-Gaipo/object_detection_with_MobileNetSSD.git
 2. **Instale as dependências:** `pip install -r requirements.txt`
 3. **Execute o script:** `python main.py -i <caminho_para_imagem>` (substitua `<caminho_para_imagem>` pelo caminho da imagem que você quer analisar)
 
@@ -25,7 +25,8 @@ Em termos simples, a mágica acontece assim:
 
 Dá uma olhada nos resultados que conseguimos! 👇
 
-(Insira aqui algumas imagens de exemplo com as detecções, como no artigo)
+![input](./images/vacas.jpg)
+![output](./images/output/image.jpg)
 
 ## Tecnologias Utilizadas
 
@@ -45,4 +46,10 @@ Este projeto está licenciado sob a licença MIT.  Fique à vontade para usar, m
 
 ## Contato
 
-Se tiver alguma dúvida ou quiser bater um papo sobre o projeto, pode me encontrar aqui: [Seu nome/link para perfil do GitHub]
+Se tiver alguma dúvida ou quiser bater um papo sobre o projeto, pode me encontrar aqui:
+
+<div aLign="center" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 0.8rem;">
+  <a href="https://github.com/Heber-Stavrakas-Gaipo" style="margin: 0.4rem 0;"><img aLign="center" alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:contatohebergaipo@gmail.com" style="margin: 0.4rem 0;"><img aLign="center" alt="Gmail" src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" /></a>
+  <a href="https://www.linkedin.com/in/heber-stavrakas-gaipo/" style="margin: 0.4rem 0;"><img aLign="center" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</div>
