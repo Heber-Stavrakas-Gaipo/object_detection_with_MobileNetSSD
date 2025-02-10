@@ -8,10 +8,10 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
                 help="path to input image")
 ap.add_argument("-p", "--prototxt", required=False, default="models/MobileNetSSD_deploy.prototxt.txt",
-                help="models/MobileNetSSD_deploy.prototxt.txt")
+                help="path to prototxt")
 ap.add_argument("-m", "--model", required=False, default="models/MobileNetSSD_deploy.caffemodel",
-                help="models/MobileNetSSD_deploy.caffemodel")
-ap.add_argument("-c", "--confidence", type=float, default=0.2,
+                help="path to model caffemodel")
+ap.add_argument("-c", "--confidence", type=float, default=0,
                 help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
 
