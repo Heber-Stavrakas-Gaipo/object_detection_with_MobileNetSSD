@@ -29,8 +29,12 @@ Em termos simples, a mágica acontece assim:
 
 Dá uma olhada nos resultados que conseguimos! 👇
 
-![input](./images/vacas.jpg)
-![output](./images/output/image.jpg)
+![Vacas Input](./images/vacas.jpg)
+![Vacas Output](./images/readme/cows_output.jpg)
+![Trânsito Input](./images/transito.png)
+![Trânsito Output](./images/readme/transito_output.jpg)
+![Avião Input](./images/aviao.jpg)
+![Avião Output](./images/readme/airplane_output.jpg)
 
 ## Tecnologias Utilizadas
 
