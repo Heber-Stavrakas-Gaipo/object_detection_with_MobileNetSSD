@@ -12,7 +12,7 @@ ap.add_argument("-p", "--prototxt", required=False, default="models/MobileNetSSD
                 help="path to prototxt")
 ap.add_argument("-m", "--model", required=False, default="models/MobileNetSSD_deploy.caffemodel",
                 help="path to model caffemodel")
-ap.add_argument("-c", "--confidence", type=float, default=0,
+ap.add_argument("-c", "--confidence", type=float, default=0.5,
                 help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
 
