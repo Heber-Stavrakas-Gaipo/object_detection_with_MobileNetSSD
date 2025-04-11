@@ -2,6 +2,7 @@
 import numpy as np
 import argparse
 import cv2
+import time
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -22,6 +23,8 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
            "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
            "sofa", "train", "tvmonitor"]
 COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
+
+start_time = time.time()
 
 # load our serialized model from disk
 print("[INFO] loading model...")
@@ -62,6 +65,17 @@ for i in np.arange(0, detections.shape[2]):
         y = startY - 15 if startY - 15 > 15 else startY + 15
         cv2.putText(image, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
         cv2.imwrite("images/output/image.jpg", image)
+
+# Pare a contagem do tempo após salvar a imagem
+end_time = time.time()
+
+# Calcule o tempo decorrido
+processing_time = end_time - start_time
+
+# Imprime o tempo de processamento
+
+print(f"Processing time: {processing_time} seconds")
+
 # show the output image
 cv2.imshow("Output", image)
 cv2.waitKey(0)
