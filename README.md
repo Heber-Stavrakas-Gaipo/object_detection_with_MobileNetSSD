@@ -6,7 +6,7 @@ Já imaginou como seu computador consegue "enxergar" objetos em imagens? 🤔 Es
 
 Este projeto foi desenvolvido como um trabalho para a disciplina de Cálculo 2, com o objetivo de explorar a aplicação do cálculo na detecção de objetos em imagens. Utilizamos a poderosa arquitetura MobileNet SSD e a biblioteca OpenCV em Python para criar um detector de objetos eficiente.
 
-<a href="https://youtu.be/bzvqNjl6_2U" aLign="center">
+<a href="https://youtu.be/bzvqNjl6_2U" target="_blank" rel="noopener noreferrer" aLign="center">
   <p>👆 Clique para ver como executar o modelo</p>
   <img src="./images/readme/video.png" aLign="center" width="75%" alt="Thumbnail vídeo"/>
 </a>
